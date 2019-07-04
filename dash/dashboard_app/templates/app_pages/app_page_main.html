@@ -22,12 +22,22 @@
     <script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.2.0.min.js"></script>
     <script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.2.0.min.js"></script>
     {{ script | safe }}
+    {{ script1 | safe }}
   
     <title>DashBoard_Task_By_AG</title>
   </head>
   <body>
-    <h1>DashBoard_Task_By_AG</h1>
-    {{div | safe }}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 bg-success">
+          {{ div | safe }}
+        </div>
+        <div class="col-sm-6 bg-warning">
+          {{ div1 | safe }}
+        </div>
+      </div>
+    </div> 
+    
 
     <!-- Optional JavaScript -->
 
