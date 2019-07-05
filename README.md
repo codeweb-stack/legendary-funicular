@@ -1,7 +1,7 @@
 # legendary-funicular
 * activate dashboard environment
 ~~~cmd
-source activate dashboard
+source dashboard/bin/activate
 ~~~
 * change directory to dash 
 ~~~cmd
